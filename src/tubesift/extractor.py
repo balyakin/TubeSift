@@ -62,6 +62,7 @@ class Extractor:
             "quiet": True,
             "no_warnings": True,
             "ignoreconfig": True,
+            "ignore_no_formats_error": True,
             "skip_download": True,
             "ignoreerrors": False,
             "extractor_retries": 2,
