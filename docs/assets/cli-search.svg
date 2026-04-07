@@ -1,0 +1,33 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1400" height="520" viewBox="0 0 1400 520" role="img" aria-labelledby="title desc">
+  <title id="title">TubeSift CLI Screenshot</title>
+  <desc id="desc">Stylized CLI output table for TubeSift search results.</desc>
+  <defs>
+    <linearGradient id="bg" x1="0" x2="1" y1="0" y2="1">
+      <stop offset="0%" stop-color="#101822" />
+      <stop offset="100%" stop-color="#172838" />
+    </linearGradient>
+  </defs>
+
+  <rect width="1400" height="520" rx="20" fill="url(#bg)" />
+  <rect x="40" y="40" width="1320" height="440" rx="12" fill="#0d1621" stroke="#30485f" stroke-width="2" />
+  <circle cx="70" cy="68" r="7" fill="#ff6b6b" />
+  <circle cx="92" cy="68" r="7" fill="#ffd166" />
+  <circle cx="114" cy="68" r="7" fill="#4dd599" />
+
+  <text x="68" y="112" fill="#7ce3c7" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, monospace" font-size="24">
+    $ tubesift search @3blue1brown "eigenvectors" --field any --sort score
+  </text>
+
+  <text x="68" y="154" fill="#6ab6ff" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, monospace" font-size="18">#  TITLE                               CHANNEL       DATE       MATCH      TIME   SNIPPET</text>
+  <line x1="68" y1="166" x2="1320" y2="166" stroke="#2f4a61" />
+
+  <text x="68" y="198" fill="#e2edf8" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, monospace" font-size="17">1  Essence of Linear Algebra            3Blue1Brown  2016-08-08 subtitle   12:43  ...eigenvectors point in...</text>
+  <text x="68" y="230" fill="#c7d8ea" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, monospace" font-size="17">2  Eigenvectors and Eigenvalues         3Blue1Brown  2018-02-10 title      --     ...an intuitive way to see...</text>
+  <text x="68" y="262" fill="#c7d8ea" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, monospace" font-size="17">3  Matrix Transformations               3Blue1Brown  2017-11-01 description --     ...this visual language...</text>
+  <text x="68" y="294" fill="#c7d8ea" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, monospace" font-size="17">4  Why Basis Matters                    3Blue1Brown  2019-03-21 subtitle   03:14  ...change of basis and...</text>
+
+  <rect x="68" y="332" width="1230" height="116" rx="8" fill="#102131" stroke="#2f4a61" />
+  <text x="86" y="364" fill="#93c3ee" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, monospace" font-size="16">Export options:</text>
+  <text x="86" y="392" fill="#c7d8ea" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, monospace" font-size="16">--json   --csv --output exports/results.csv   --markdown</text>
+  <text x="86" y="420" fill="#c7d8ea" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, monospace" font-size="16">--open N opens result N immediately in browser with timestamp</text>
+</svg>

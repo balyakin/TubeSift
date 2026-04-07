@@ -1,0 +1,36 @@
+[build-system]
+requires = ["hatchling>=1.26.0"]
+build-backend = "hatchling.build"
+
+[project]
+name = "tubesift"
+version = "0.1.0"
+description = "The fastest zero-config way to search inside YouTube channels from your terminal"
+readme = "README.md"
+requires-python = ">=3.11"
+license = { text = "MIT" }
+authors = [
+  { name = "TubeSift contributors" }
+]
+dependencies = [
+  "typer>=0.12.3",
+  "rich>=13.7.1",
+  "yt-dlp>=2024.10.22",
+  "textual>=0.52.1",
+]
+
+[project.optional-dependencies]
+dev = [
+  "pytest>=8.3.4",
+]
+
+[project.scripts]
+tubesift = "tubesift.cli:app"
+
+[tool.hatch.build.targets.wheel]
+packages = ["src/tubesift"]
+
+[tool.pytest.ini_options]
+testpaths = ["tests"]
+addopts = "-q"
+pythonpath = ["src"]

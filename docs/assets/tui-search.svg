@@ -1,0 +1,45 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1400" height="560" viewBox="0 0 1400 560" role="img" aria-labelledby="title desc">
+  <title id="title">TubeSift TUI Screenshot</title>
+  <desc id="desc">Stylized TUI layout showing scope list, search results, and preview pane.</desc>
+
+  <defs>
+    <linearGradient id="bg" x1="0" x2="1" y1="0" y2="1">
+      <stop offset="0%" stop-color="#0f1b2d" />
+      <stop offset="100%" stop-color="#123447" />
+    </linearGradient>
+  </defs>
+
+  <rect width="1400" height="560" rx="20" fill="url(#bg)" />
+  <rect x="32" y="32" width="1336" height="496" rx="12" fill="#0a1622" stroke="#2a4b64" stroke-width="2" />
+
+  <rect x="58" y="58" width="270" height="438" rx="8" fill="#0d1f2d" stroke="#2f5d7b" />
+  <text x="78" y="90" fill="#9cc7e8" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, monospace" font-size="18">SCOPES</text>
+  <text x="78" y="126" fill="#68c4ff" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, monospace" font-size="16">@3blue1brown</text>
+  <text x="78" y="154" fill="#a3bdd4" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, monospace" font-size="16">@veritasium</text>
+  <text x="78" y="182" fill="#a3bdd4" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, monospace" font-size="16">@computerphile</text>
+
+  <rect x="348" y="58" width="640" height="56" rx="8" fill="#0d1f2d" stroke="#2f5d7b" />
+  <text x="370" y="93" fill="#68c4ff" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, monospace" font-size="20">/ eigenvectors</text>
+
+  <rect x="348" y="126" width="640" height="370" rx="8" fill="#0d1f2d" stroke="#2f5d7b" />
+  <text x="368" y="158" fill="#9cc7e8" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, monospace" font-size="16">#  Title                               Match       Time</text>
+  <line x1="366" y1="170" x2="964" y2="170" stroke="#2f5d7b" />
+  <text x="368" y="198" fill="#68c4ff" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, monospace" font-size="15">1  Essence of Linear Algebra          subtitle    12:43</text>
+  <text x="368" y="226" fill="#c6d9eb" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, monospace" font-size="15">2  Eigenvectors and Eigenvalues       title       --</text>
+  <text x="368" y="254" fill="#c6d9eb" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, monospace" font-size="15">3  Matrix Transformations             description --</text>
+  <text x="368" y="282" fill="#c6d9eb" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, monospace" font-size="15">4  Why Basis Matters                  subtitle    03:14</text>
+
+  <rect x="1008" y="58" width="332" height="438" rx="8" fill="#0d1f2d" stroke="#2f5d7b" />
+  <text x="1028" y="90" fill="#9cc7e8" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, monospace" font-size="18">PREVIEW</text>
+  <text x="1028" y="126" fill="#68c4ff" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, monospace" font-size="15">Essence of Linear Algebra</text>
+  <text x="1028" y="152" fill="#c6d9eb" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, monospace" font-size="14">channel: 3Blue1Brown</text>
+  <text x="1028" y="176" fill="#c6d9eb" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, monospace" font-size="14">date: 2016-08-08</text>
+  <text x="1028" y="200" fill="#c6d9eb" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, monospace" font-size="14">views: 8,430,221</text>
+  <text x="1028" y="224" fill="#c6d9eb" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, monospace" font-size="14">duration: 16:07</text>
+  <text x="1028" y="260" fill="#9cc7e8" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, monospace" font-size="14">subtitle snippet:</text>
+  <text x="1028" y="286" fill="#c6d9eb" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, monospace" font-size="14">"...eigenvectors point in a...</text>
+  <text x="1028" y="310" fill="#c6d9eb" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, monospace" font-size="14">...stable direction of the..."</text>
+
+  <rect x="58" y="504" width="1282" height="24" rx="6" fill="#0f2131" stroke="#2f5d7b" />
+  <text x="74" y="521" fill="#9cc7e8" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, monospace" font-size="13">Enter open | / search | Tab panels | s sort | f filters | y copy URL | t toggle preview</text>
+</svg>

@@ -1,0 +1,68 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1400" height="760" viewBox="0 0 1400 760" role="img" aria-labelledby="title desc">
+  <title id="title">TubeSift Hero Demo</title>
+  <desc id="desc">Stylized terminal and TUI preview for TubeSift README hero section.</desc>
+  <defs>
+    <linearGradient id="bg" x1="0" x2="1" y1="0" y2="1">
+      <stop offset="0%" stop-color="#0d1528" />
+      <stop offset="100%" stop-color="#1a3044" />
+    </linearGradient>
+    <linearGradient id="panel" x1="0" x2="1" y1="0" y2="0">
+      <stop offset="0%" stop-color="#12253a" />
+      <stop offset="100%" stop-color="#0d1d2e" />
+    </linearGradient>
+  </defs>
+
+  <rect width="1400" height="760" fill="url(#bg)" rx="26" />
+
+  <text x="70" y="84" fill="#f4f8ff" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, monospace" font-size="44" font-weight="700">
+    TubeSift
+  </text>
+  <text x="70" y="122" fill="#9fc0de" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, monospace" font-size="24">
+    Search inside YouTube channels with local FTS5 and timestamped subtitle matches.
+  </text>
+
+  <rect x="62" y="156" width="1276" height="250" fill="url(#panel)" stroke="#2e4f6c" stroke-width="2" rx="14" />
+  <circle cx="94" cy="184" r="8" fill="#ff6b6b" />
+  <circle cx="118" cy="184" r="8" fill="#ffd166" />
+  <circle cx="142" cy="184" r="8" fill="#4dd599" />
+
+  <text x="90" y="232" fill="#81e6d9" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, monospace" font-size="26">
+    $ tubesift fetch @3blue1brown --subs auto
+  </text>
+  <text x="90" y="272" fill="#e2ecf7" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, monospace" font-size="22">
+    discovered: 431   fetched: 58   new: 12   updated: 46   skipped: 373
+  </text>
+  <text x="90" y="312" fill="#81e6d9" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, monospace" font-size="26">
+    $ tubesift search @3blue1brown "eigenvectors" --field subtitle --open 1
+  </text>
+  <text x="90" y="352" fill="#e2ecf7" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, monospace" font-size="22">
+    [1] Essence of Linear Algebra  | subtitle | 12:43 | "...eigenvectors point in..."
+  </text>
+
+  <rect x="62" y="434" width="1276" height="268" fill="url(#panel)" stroke="#2e4f6c" stroke-width="2" rx="14" />
+  <text x="90" y="472" fill="#9fc0de" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, monospace" font-size="21">
+    TUI: scope list | search bar | ranked results | preview pane
+  </text>
+
+  <rect x="90" y="494" width="248" height="186" fill="#0c1a29" stroke="#345e7e" rx="8" />
+  <text x="108" y="520" fill="#b7d7f1" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, monospace" font-size="18">SCOPES</text>
+  <text x="108" y="548" fill="#7fd0ff" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, monospace" font-size="16">@3blue1brown</text>
+  <text x="108" y="572" fill="#9fb8cd" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, monospace" font-size="16">@veritasium</text>
+  <text x="108" y="596" fill="#9fb8cd" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, monospace" font-size="16">@computerphile</text>
+
+  <rect x="358" y="494" width="620" height="186" fill="#0c1a29" stroke="#345e7e" rx="8" />
+  <text x="380" y="520" fill="#b7d7f1" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, monospace" font-size="18">RESULTS</text>
+  <text x="380" y="548" fill="#7fd0ff" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, monospace" font-size="16">1  Essence of Linear Algebra      subtitle  12:43</text>
+  <text x="380" y="572" fill="#9fb8cd" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, monospace" font-size="16">2  Eigenvectors and Stability     title     --</text>
+  <text x="380" y="596" fill="#9fb8cd" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, monospace" font-size="16">3  Matrix Transformations         description --</text>
+
+  <rect x="1000" y="494" width="310" height="186" fill="#0c1a29" stroke="#345e7e" rx="8" />
+  <text x="1020" y="520" fill="#b7d7f1" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, monospace" font-size="18">PREVIEW</text>
+  <text x="1020" y="548" fill="#7fd0ff" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, monospace" font-size="16">match: subtitle</text>
+  <text x="1020" y="572" fill="#9fb8cd" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, monospace" font-size="16">time: 12:43</text>
+  <text x="1020" y="596" fill="#9fb8cd" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, monospace" font-size="16">open: Enter</text>
+
+  <text x="70" y="736" fill="#9fc0de" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, monospace" font-size="18">
+    Target release media: replace this SVG with docs/assets/hero.gif.
+  </text>
+</svg>
