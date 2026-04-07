@@ -61,6 +61,7 @@ class Extractor:
         self._base_opts = {
             "quiet": True,
             "no_warnings": True,
+            "ignoreconfig": True,
             "skip_download": True,
             "ignoreerrors": False,
             "extractor_retries": 2,
